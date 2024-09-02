@@ -27,6 +27,8 @@ class MainActivity : AppCompatActivity() {
         button = findViewById(R.id.btn)
         editText= findViewById(R.id.edit)
 
+        //hello
+
         val reposi = Reposi()
         val viewModelFactory = MainViewModelFactory(reposi)
         viewModel = ViewModelProvider(this, viewModelFactory).get(MainViewModel::class.java)
